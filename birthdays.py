@@ -42,11 +42,11 @@ def get_day_of_week(weekday):
 
 
 users = [
-    {"name": "Bill Gates", "birthday": datetime(1955, 10, 17)},
+    {"name": "Bill Gates", "birthday": datetime(1955, 10, 18)},
     {"name": "Jan Koum", "birthday": datetime(1976, 2, 24)},
     {"name": "Kim Kardashian", "birthday": datetime(1980, 10, 21)},
-    {"name": "Dmitry Lupherov", "birthday": datetime(1980, 10, 20)},
-    {"name": "Jill Valentine", "birthday": datetime(1974, 10, 16)},
+    {"name": "Dmitry Lupherov", "birthday": datetime(1980, 10, 23)},
+    {"name": "Jill Valentine", "birthday": datetime(1974, 10, 19)},
 ]
 
 
