@@ -40,9 +40,9 @@ def show_phone(args, contacts):
 def show_all(contacts):
     formatted_list = []
     for name, phone in contacts.items():
-        formatted_list.append(f"{name}: {phone}")
+        formatted_list.append(f"{name}: {phone}\n")
 
-    return formatted_list
+    return "".join(formatted_list)
 
 
 if __name__ == "__main__":

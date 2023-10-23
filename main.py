@@ -7,7 +7,7 @@ def main():
     while True:
         user_input = input("Enter a command: ")
         command, *args = assistant.parse_input(user_input)
-        if command in ["close", "exit", "bye"]:
+        if command in ["close", "exit", "bye", "q"]:
             print("Good bye!")
             break
         elif command == "hello":
